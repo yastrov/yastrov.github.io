@@ -1,0 +1,51 @@
+@import url("http://fonts.googleapis.com/css?family=EB+Garamond");
+
+body {
+    font-family: "EB Garamond", serif;
+    line-height: 1.6em;
+}
+a {
+    border-bottom: 1px inset;
+    color: inherit;
+    text-decoration: none;
+}
+header {
+    font-size: 1.6em;
+    margin-bottom: 0.6em;
+}
+section .education, .skills, .languges {
+    margin-top: 1.5em;
+}
+section > header:after {
+    content: ':';
+}
+section p {
+    text-indent: 1.5em;
+    margin: 0;
+}
+section ul {
+        margin: 0;
+    }
+    section ul li > i:after {
+        content: ':';
+    }
+    section ul li > span {
+        word-wrap: break-word;
+    }
+
+.name, .location, .birth, .links, .position {
+    text-align: center;
+}
+.photo {
+    text-align: center;
+}
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+    .links ul li {
+        margin: 0.4em 0;
+    }
+    .links ul li a {
+        margin: 0 0.2em;
+    }
