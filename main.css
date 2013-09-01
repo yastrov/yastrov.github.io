@@ -1,0 +1,106 @@
+@import url("http://fonts.googleapis.com/css?family=EB+Garamond");
+@media all and (min-width: 1000px) {
+  body {
+    font-size: 1.4em; }
+    body > * {
+      width: 980px;
+      margin-bottom: 1.4em;
+      padding: 0.8em 0; }
+
+  header {
+    font-size: 1.6em;
+    margin-bottom: 0.6em; }
+
+  ul {
+    padding-left: 14em; }
+    ul li {
+      position: relative; }
+      ul li > i {
+        position: absolute;
+        left: -11.6em;
+        width: 10em;
+        text-align: right; }
+      ul li > i:after {
+        content: '' !important; } }
+@media all and (max-width: 1000px) and (min-width: 600px) {
+  body {
+    font-size: 1.2em; }
+    body > * {
+      margin-bottom: 0.8em;
+      padding: 0.4em 0; }
+
+  header {
+    font-size: 1.4em;
+    margin-bottom: 0.4em; }
+
+  ul {
+    padding-left: 1.6em; }
+
+  .photo img {
+    width: 160px; } }
+@media all and (max-width: 600px) {
+  body {
+    font-size: 1em; }
+    body > * {
+      padding: 0.4em 0; }
+
+  header {
+    font-size: 1.2em;
+    margin-bottom: 0.2em; }
+
+  ul {
+    padding-left: 1.2em; }
+
+  .photo img {
+    width: 100px; } }
+body {
+  font-family: "EB Garamond", serif;
+  line-height: 1.6em;
+  background-color: #f9f8f3;
+  color: #222; }
+  body > * {
+    margin: 0 auto;
+    transition: 0.2s ease; }
+    body > * a:hover {
+      color: #000; }
+    body > * header {
+      color: #666; }
+
+a {
+  border-bottom: 1px dashed;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.2s ease color; }
+
+section > header:after {
+  content: ':'; }
+section ul {
+  margin: 0; }
+  section ul li > i:after {
+    content: ':'; }
+
+.name, .location, .birth, .links, .position {
+  text-align: center; }
+
+.photo {
+  text-align: center; }
+  .photo img {
+    border-radius: 50%;
+    transition: 0.4s ease;
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    -ms-filter: grayscale(80%); }
+  .photo img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%); }
+
+.links ul {
+  list-style: none;
+  padding: 0; }
+  .links ul li {
+    margin: 0.4em 0; }
+    .links ul li a {
+      margin: 0 0.2em; }
