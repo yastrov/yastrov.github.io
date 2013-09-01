@@ -13,7 +13,7 @@ header {
     font-size: 1.6em;
     margin-bottom: 0.6em;
 }
-section .interests, .education, .skills, .languges {
+section .interests, .education, .skills, .languages {
     margin-top: 1.5em;
 }
 section > header:after {
