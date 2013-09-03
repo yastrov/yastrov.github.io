@@ -2,6 +2,7 @@
 
 body {
     font-family: "EB Garamond", serif;
+    font-size: 1.4em;
     line-height: 1.6em;
 }
 a {
@@ -33,7 +34,7 @@ section ul {
         word-wrap: break-word;
     }
 
-.name, .location, .birth, .links, .position {
+.name, .location, .birth, .links, .phone,.position {
     text-align: center;
 }
 .photo {
