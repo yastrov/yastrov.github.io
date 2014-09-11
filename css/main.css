@@ -34,9 +34,6 @@ section ul {
     section ul li > i:after {
         content: ':';
     }
-    .portfolio a:after {
-        content: ' - ';
-    }
     section ul li > span {
         word-wrap: break-word;
     }
